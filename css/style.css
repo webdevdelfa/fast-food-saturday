@@ -31,6 +31,7 @@ img {
 
 .wrapper {
     min-height: 100%;
+    background: #1C1C1C;
 }
 
 h1,
@@ -134,3 +135,123 @@ h6 {
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 42px;
 }
+
+.food {
+    padding: 115px 0px 102px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__item {
+    width: calc(25% - 23px);
+}
+
+.dish {
+    background: #312F30;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dish__img-wrap {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+}
+
+.dish__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dish__desc {
+    padding: 28px 35px 35px;
+    text-align: center;
+}
+
+.dish__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+
+.dish__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.order {
+    padding: 73px 0px;
+    background: #312F30;
+}
+
+.order__container {
+    display: flex;
+    align-items: center;
+}
+
+.order__img-wrap {
+    width: 50%;
+}
+
+.order__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.order__desc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.action {}
+
+.order__action {
+    max-width: 371px;
+}
+
+.action__title {
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    margin-bottom: 24px;
+}
+
+.action__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 13px;
+}
+
+.action__price {
+    margin-bottom: 11px;
+}
+
+.action__price-new {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+}
+
+.action__price-old {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: rgba(246, 118, 44, 0.5)
+}
+
+.btn {}
